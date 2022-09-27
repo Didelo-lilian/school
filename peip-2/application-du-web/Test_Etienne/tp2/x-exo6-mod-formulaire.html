@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+	<meta charset="utf-8">
+	<title>TP 2 - Exo 6</title>
+	<meta name="author" content="Marc Gaetano">
+	<meta name="viewport" content="width=device-width; initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/tp2.css">
+</head>
+
+<body>
+	<h1>TP 2 - Exo 6</h1>
+	<hr>
+
+	<form class="exo6" action="exo6-mod-action.php" method="get">
+		<table>
+			<tr>
+				<th>ID</th>
+				<th>Prénom</th>
+				<th>Nom</th>
+				<th>Trimestre 1</th>
+				<th>Trimestre 2</th>
+				<th>Trimestre 3</th>
+				<th>Moyenne</th>
+				<th>Validation</th>
+			</tr>
+			<tr>
+				<td>1013</td>
+				<td>
+					<input type="text" name="prenom" value="emma">
+				</td>
+				<td>
+					<input type="text" name="nom" value="stone">
+				</td>
+				<td>
+					<input type="text" name="score1" value="13.5">
+				</td>
+				<td>
+					<input type="text" name="score2" value="14.0">
+				</td>
+				<td>
+					<input type="text" name="score3" value="15.0">
+				</td>
+				<td>14.17</td>
+				<td>
+					<input type="submit" value="Valider">
+				</td>
+				<input type="hidden" name="id" value="1013">
+			</tr>
+		</table>
+	</form>
+</body>
+
+</html>

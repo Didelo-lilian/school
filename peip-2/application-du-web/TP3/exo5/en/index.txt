@@ -1,0 +1,7 @@
+title#Home
+heading#Welcome on MULTILINGUE !
+paragraph#Our site is multiplingual and you can choose your language !
+linktext#To visit other pages click on the links below
+linkhome#Home
+linkproducts#Products
+linkcontact#Contact

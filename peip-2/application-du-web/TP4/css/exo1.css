@@ -1,0 +1,15 @@
+p {
+    text-align: center;
+}
+p#resultat {
+    font-weight: bolder;
+}
+div {
+    margin: auto;
+    width: 400px;
+    border: solid 1px black;
+    box-shadow: 5px 5px 5px gray;
+}
+input#pht, input#tva {
+    border: dotted 1px gray;
+}

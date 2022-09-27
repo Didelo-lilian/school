@@ -1,0 +1,8 @@
+title#Products
+heading#Our products
+paragraph#We sell
+productlist#dictionaries;language method books;movies in original language;novels in original language
+linktext#To visit other pages click on the links below
+linkhome#Home
+linkproducts#Products
+linkcontact#Contact

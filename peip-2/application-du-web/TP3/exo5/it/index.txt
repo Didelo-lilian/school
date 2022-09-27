@@ -1,0 +1,7 @@
+title#￼Home
+heading#Benvenuto in MULTILINGUE !
+paragraph#Il nostro sito è multilingue e puoi scegliere la tua lingua
+linktext#Per visitare le altre pagine, clicca sui link qui sotto
+linkhome#Home
+linkproducts#Prodotti
+linkcontact#Contatti

@@ -1,0 +1,14 @@
+p.warning {
+    font-style: italic;
+    color: red;
+}
+
+p.question {
+    font-weight: bolder;
+    color: blue;
+}
+
+p#message {
+    text-align: center;
+    font-size: 110%;
+}

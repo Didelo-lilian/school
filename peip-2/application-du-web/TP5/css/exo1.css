@@ -1,0 +1,11 @@
+p#image {
+    text-align: center;
+}
+
+p#image img {
+    vertical-align: middle;
+}
+
+.arrow {
+    width: 100px;
+}

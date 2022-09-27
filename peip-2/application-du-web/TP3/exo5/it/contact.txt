@@ -1,0 +1,8 @@
+title#￼Contatti
+heading#Per contattarci
+email#Per email
+phone#Per telefono
+linktext#Per visitare le altre pagine, clicca sui link qui sotto
+linkhome#Home
+linkproducts#Prodotti
+linkcontact#Contatti

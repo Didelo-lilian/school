@@ -1,0 +1,44 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 120%
+}
+
+div#menu {
+	border-bottom: solid 1px blue;
+	padding: 10px 0px 10px 20px
+}
+
+div#menu a {
+	text-decoration: none;
+	border: solid 2px #0f0fa8;
+	padding: 5px;
+	margin-right: 15px;
+}
+
+div#menu a:hover {
+	text-decoration: none;
+	color: white;
+	background-color: #0f0fa8;
+}
+
+div#link {
+	border-top: solid 1px blue;
+	font-size: 80%;
+}
+
+div#link a {
+	text-decoration: none;
+	border: solid 2px #0f0fa8;
+	padding: 5px;
+	margin-right: 15px;
+}
+
+div#link a:hover {
+	text-decoration: none;
+	color: white;
+	background-color: #0f0fa8;	
+}
+
+div#link div {
+	margin-top: 10px;
+}

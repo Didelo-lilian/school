@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <title>Exercice 4 d'application CSS+</title>
+        <link rel="stylesheet" type="text/css" href="css/4_fds.css">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+    </head>
+    <body>
+
+        <header><h1>Exercice 1 - Les colonnes et leur positionnement</h1></header>
+
+        <nav>
+            <div id="menub"><div></div><div></div><div></div></div>
+            <ul>
+                <li><a href="">Entrée 1</a></li>
+                <li><a href="">Entrée 2</a>
+                    <ul>
+                        <li><a href="">sous-menu 1</a></li>
+                        <li><a href="">sous-menu 2</a></li>
+                        <li><a href="">sous-menu 3</a></li>
+                    </ul>
+                </li>
+                <li><a href="">Entrée 3</a></li>
+            </ul>
+        </nav>
+
+        <div class="separator"></div>
+
+        <section>
+            <div id="intro">
+                <p><i>A key trick to the manipulation of HTML elements is understanding that there's nothing at all special about how most of them work. Most pages could be made up from just a few tags that can be styled any which way you choose. The browser's default visual representation of most HTML elements consist of varying font styles, margins, padding and, essentially, display types.</i></p>
+            </div>
+            
+            <article class="cols">
+                <h2>Inline</h2>
+                <p>inline does just what it says - boxes that are displayed inline follow the flow of a line. Anchor (links) and emphasis are examples of elements that are displayed inline by default.</p>
+
+                <p>The following code, for example, will cause all list items in a list to appear next to each other in one continuous line rather than each one having its own line... </p>
+            </article>
+            
+            <article class="cols">
+                <h2>Block</h2>
+ 		         <p>block makes a box standalone, fitting the entire width of its containing box, with an effective line break before and after it. Unlike inline boxes, block boxes allow greater manipulation of height, margins, and padding. Heading and paragraph elements are examples of elements that are displayed this way by default in browsers.</p>
+
+                <p>The next example will make all links in "nav" large clickable blocks:</p>
+            </article>
+
+            <article class="cols">
+                <h2>Inline-block</h2>
+                <p> display:inline-block will keep a box inline but lend the greater formatting flexibility of block boxes, allowing margin to the right and left of the box, for example.</p>
+            </article>
+
+            <div id="suite">
+                <p>The most fundamental types of display are inline, block and none and they can be manipulated with the display property and the shockingly surprising values inline, block and none.</p>
+            </div>
+        </section>
+        <div id="twitterfeed">
+            <a class="twitter-timeline" data-width="100%" data-height="100%" href="https://twitter.com/laboratoire_I3S"></a> 
+            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </div>
+        <div class="separator"></div>
+    </body>
+</html>

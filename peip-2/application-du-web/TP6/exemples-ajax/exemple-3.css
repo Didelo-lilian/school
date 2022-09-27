@@ -1,0 +1,54 @@
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+h4 {
+	margin-top: -20px;
+}
+section#new {
+	text-align: center;
+	width: 300px;
+	float: left;
+	padding: 10px;
+	border: dotted 1px gray;
+}
+
+section#list {
+	width: 400px;
+	margin-left: 350px;
+}
+
+section#list ul {
+	list-style-type: none
+}
+
+section#list li {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-bottom: dotted 1px gray;
+}
+
+div.data {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+div.data label {
+	display: inline-block;
+	text-align: left;
+	width: 150px;
+}
+
+input.data {
+	border: dotted 1px gray;
+	width: 100px;
+}
+
+li.male::before {
+	content: "M. ";
+}
+
+li.female::before {
+	content: "Ms. ";
+}

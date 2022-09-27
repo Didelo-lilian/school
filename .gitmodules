@@ -1,0 +1,3 @@
+[submodule "info-3/programmation-web"]
+	path = info-3/programmation-web
+	url = git@github.com:LilianSOLER/PW6.git

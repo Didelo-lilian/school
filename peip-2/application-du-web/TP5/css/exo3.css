@@ -1,0 +1,22 @@
+div#main {
+    text-align: center;
+}
+
+div#main > header {
+    text-align: left;
+}
+
+img.miniature {
+    width: 112px;
+}
+
+img#realsize {
+    width: 580px;
+}
+
+p#legend {
+    font-size: 200%;
+    font-weight: bolder;
+    font-style: italic;
+    color: gray;
+}

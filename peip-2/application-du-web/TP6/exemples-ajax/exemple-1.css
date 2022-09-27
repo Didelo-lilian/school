@@ -1,0 +1,14 @@
+div#proverbe {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    width: 250px;
+    height: 32px;
+    text-align: center;
+    font-size: smaller;
+    font-style: italic;
+    border: solid 1px #0808FD;
+    background-color: #DFDFFD;
+    padding: 5px;
+    z-index: 7;
+}

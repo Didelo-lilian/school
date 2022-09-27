@@ -1,0 +1,52 @@
+body {
+  max-width: 1024px;
+  min-width: 800px;
+  margin: auto;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-right: solid 2px whitesmoke;
+  border-left: solid 2px whitesmoke;
+  background-color: #1e1e1e;
+  color: whitesmoke;
+}
+
+@media all and (max-width: 800px) {
+  body {
+    margin-left: 10px;
+    margin-right: 10px;
+    min-width: auto;
+  }
+}
+
+article {
+  text-align: justify;
+}
+
+h2 {
+  font-size: 2.5em;
+  font-weight: bold;
+  text-decoration: underline;
+  color: blanchedalmond;
+  text-align: center;
+}
+
+h3 {
+  font-size: 2em;
+  font-style: italic;
+}
+p {
+  font-size: 1.5em;
+}
+
+hr {
+  height: 12px;
+  border: 0;
+  box-shadow: inset 0 15px 15px -15px rgba(255, 255, 255, 0.8);
+}
+
+.image_letter {
+  float: left;
+  width: 5%;
+  height: auto;
+  padding: 14px 16px;
+}

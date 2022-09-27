@@ -1,0 +1,19 @@
+p {
+  text-align: center;
+}
+p#resultat {
+  font-weight: bolder;
+}
+div {
+  margin: auto;
+  width: 300px;
+  border: solid 1px black;
+  box-shadow: 5px 5px 5px gray;
+}
+#multiplication {
+  font-size: 130%;
+}
+#proposition {
+  width: 50px;
+  font-size: 120%;
+}

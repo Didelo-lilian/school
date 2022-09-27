@@ -1,0 +1,39 @@
+p#message {
+    margin-top: 10px;
+    text-align: center;
+    font-weight: bolder;
+    color: blue;
+}
+div#jeu {
+    margin: auto;
+    padding: 0px 10px 0px 10px;
+    width: 300px;
+    border: solid 1px blue;
+    box-shadow: 5px 5px 5px #393A7C;
+}
+#proposition {
+    border: solid 1px blue;
+    width: 50px;
+    font-size: 120%;
+}
+div#jeu input[type="button"] {
+    font-size: 115%;
+    border: solid 1px blue;
+}
+p#stat span {
+    font-weight: bolder;
+    color: blue;
+}
+div#question {
+    margin: auto;
+    padding: 10px;
+    width: 200px;
+    margin-top: 40px;
+    text-align: center;
+    border: solid 1px blue;
+    border-radius: 10px;
+    visibility: hidden;
+}
+div#question span {
+    display: block;
+}

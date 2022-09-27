@@ -1,0 +1,25 @@
+div#main {
+    margin: auto;
+    width: 400px;
+    text-align: center;
+    border: solid 1px black;
+    box-shadow: 5px 5px 5px gray;
+}
+div.entree {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}  
+.entree label {
+    display: inline-block;
+    text-align: left;
+    width: 150px;
+}
+.entree input[type=text] {
+    border: dotted 1px gray;
+    width: 50px;
+}
+div#resultat {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-weight: bolder;
+}

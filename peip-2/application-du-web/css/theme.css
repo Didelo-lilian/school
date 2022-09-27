@@ -1,0 +1,33 @@
+/*Thème de base du site*/
+
+body {
+    color:white;
+    background-color: #1e1e1e;
+    }
+
+h1{
+    text-align: center;
+    text-decoration: underline;
+}
+
+a{
+    text-decoration: none;
+    font-style: italic;
+}
+
+a:link{
+    color: white;
+    
+ }
+
+
+a:visited { 
+    color: white; 
+    
+}
+
+a:hover{
+    color: red;
+    text-decoration: underline;
+	
+}

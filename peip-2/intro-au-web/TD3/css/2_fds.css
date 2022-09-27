@@ -1,0 +1,55 @@
+section {
+    width: auto;
+    max-width: none;
+    float: none;
+}
+
+
+nav>ul {
+    display: none;
+}
+
+
+nav>div>div {
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0px;
+}
+
+
+nav:hover>ul {
+    display:block;
+    width: auto;
+}
+
+
+#twitterfeed {
+    margin:auto;
+    border-left: none;
+    border-top: solid 1px red
+}
+
+
+nav:hover>div{
+    display:none;
+}
+
+
+nav>ul>li {
+    float:none;
+    width: 150px;
+    height: 18px;
+}
+
+
+nav li:hover>ul{
+    position: relative;
+    left:150px;
+    top:-42px;
+}
+
+
+nav a{
+    width: 100%;
+}

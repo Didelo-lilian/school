@@ -1,0 +1,94 @@
+/* ============ */
+
+body {
+	max-width: 1024px;
+	min-width: 800px;
+	margin: auto;
+	padding-left: 10px;
+	padding-right: 10px; 
+	border-right: solid 2px black;
+	border-left: solid 2px black;
+}
+
+h1 {
+	text-align: center;
+	border-top: solid 2px lightblue;
+	padding: 20px;
+	border-bottom: solid 2px lightblue;
+}
+
+#intro {
+	width: 60%;
+	text-align: center;
+	margin: auto;
+}
+/*===== regles exercice 2 ======*/
+nav > ul {
+	width: 466px;
+	margin: auto;
+	padding-top: 50px;
+	padding-left: 0px;
+}
+
+nav li {
+	list-style-type: none;
+	border:1px solid blue;
+}
+
+nav > ul > li {
+	float: left;
+}
+
+nav a {
+	background-color: lightgreen;
+	display: block;
+	width: 150px;
+	text-decoration: none;
+	text-align: center;
+}
+
+nav a:hover {
+	background-color: lightpink;
+}
+
+.separator {
+	padding-bottom: 50px;
+	clear: both;
+}
+
+nav > ul ul {
+	display: none;
+}
+
+/*==== regles exercice 3 ===*/
+nav li:hover > ul {
+	display: block;
+	position: absolute;
+	padding-left: 0px;
+}
+
+/*==== regles exercice 4 ===*/
+
+section {
+	float: left;
+	width: 75%;
+}
+
+#twitterfeed {
+	border-left: solid 1px red;
+	margin-left: 75%;
+	height: 500px;
+}
+
+/*==== regles exercice 5 ===*/
+
+.cols {
+	float: left;
+	width: 31%;
+	margin-left: 1%;
+	margin-right: 1%;
+}
+
+#suite {
+	clear: both;
+}

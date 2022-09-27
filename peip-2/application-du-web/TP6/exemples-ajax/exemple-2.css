@@ -1,0 +1,27 @@
+body {
+    background-color: #F8F8F8;
+}
+
+div#definition {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    width: 300px;
+    height: 80px;
+    font-size: smaller;
+    font-style: italic;
+    border: solid 1px gray;
+    background-color: white;
+    padding: 5px;
+    z-index: 7;
+    cursor: crosshair;
+    /* display: none; */
+}
+
+.hide {
+    visibility: hidden;
+}
+
+.show {
+    visibility: visible;
+}

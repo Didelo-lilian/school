@@ -1,0 +1,57 @@
+
+h1 {
+	color: red;
+	background-color: black;
+}
+
+h2 {
+	text-decoration: underline;
+}
+
+.acronym {
+	color: green;
+	font-variant: small-caps;
+}
+
+#mot_a_decorer {
+	color: blue;
+	text-decoration: underline;
+}
+a:hover{
+	color: red;
+	text-decoration: none;
+}
+
+
+p>em {
+	color: orange;
+}
+
+strong {
+	font-weight: normal;
+	font-style: italic;
+}
+
+em {
+	font-weight: bold;
+	font-style: normal;
+}
+
+p::first-letter {
+	color: red;
+	font-weight: bold;
+	text-transform: capitalize;
+}
+
+ol>li:first-child{
+	color: purple;
+}
+
+ol>li>ul:first-child{
+	color: black;
+}
+ol>li:last-child>ul>li:last-child{
+	color: purple;
+}
+
+
