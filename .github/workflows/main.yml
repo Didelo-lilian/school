@@ -1,0 +1,19 @@
+name: DEPLOY-SCHOOL
+on:
+  push:
+    branches:
+    - main
+jobs: 
+  build_and_deploy:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2 
+    - name: rsync deployments
+      uses: burnett01/rsync-deployments@5.2
+      with:
+        switches: -avzhe ssh --progress --delete
+        path: ./
+        remote_path: /home/didelofr/public_html/lilian-data/school
+        remote_host: didelo.fr
+        remote_user: didelofr
+        remote_key: ${{ secrets.SSH_KEY }}
