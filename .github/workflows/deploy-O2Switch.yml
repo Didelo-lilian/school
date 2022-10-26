@@ -1,0 +1,19 @@
+name: deploy school data on O2Switch
+on:
+  push:
+    branches:
+    - main
+jobs: 
+  deploy-data:
+    runs-on: self-hosted
+    steps:
+    - uses: actions/checkout@v2 
+    - name: rsync deployments
+      uses: burnett01/rsync-deployments@5.2
+      with:
+        switches: -avzhe ssh --progress --delete
+        path: ./
+        remote_path: /home/${{ secrets.O2SWITCH_USER }}/public_html/lilian/data/school
+        remote_host: ${{ secrets.O2SWITCH_HOST }}
+        remote_user: ${{ secrets.O2SWITCH_USER }}
+        remote_key: ${{ secrets.SSH_KEY }}
